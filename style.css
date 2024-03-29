@@ -1,5 +1,14 @@
+.main{
+    margin: -8px;
+    margin-bottom: 0;
+}
+
+/* Awesome Website */
+
 .blue-background{
     background-color: #1F2937;
+    padding: 20px 100px 150px 100px
+ 
 }
 
 .header-links{
@@ -9,6 +18,139 @@
 
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
 }
+
+.logo{
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.header-links, .awesome-subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.awesome-heading{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    max-width: 40%;
+
+}
+
+a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.sign-up{
+    background-color: #3882F6;
+    text-align: center;
+    width: 60px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    color: #E5E7EB;
+}
+
+.awesome-subtext{
+    max-width: 50%;
+}
+
+.header-links{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.left-awesome{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.image-placeholder{
+    margin-left: auto;
+    width: 50%;
+    height: 200px;
+    max-height: 70%;
+    background-color: gray;
+}
+
+.awesome{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* Information */
+
+.information{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #F9FAF8;
+    padding: 50px 100px 200px 100px
+}
+
+.info-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.info1, .info2, .info3, .info4{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 105px;
+}
+
+.info-subtext{
+    max-width: 40%;
+    text-align: center;
+    display: flex;
+    margin-left: 15px;
+} 
+
+.info-image{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.info-header{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+
+}
+
+/* Quote */
+.quote{
+    background-color: #E5E7EB;
+    padding: 200px;
+    font-weight: 300;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote-person{
+    text-align: end;
+}
+
+.quote-text{
+  text-align: end;
+}
+
